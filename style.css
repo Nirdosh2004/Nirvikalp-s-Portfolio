@@ -91,7 +91,7 @@ html,body{
 .homePage > .title{
           display: flex;
          justify-content: space-between;
-
+         font-family: "Poppins", sans-serif;
 
 }
 
@@ -101,10 +101,74 @@ html,body{
           font-weight: 500;
 }
 
-.homePage > .title > h1{
+.homePage > .title > .one{
+          display: flex;
+}
+
+
+.homePage > .title > .one > h1{
+          /* gap: -1vh; */
           font-size: 5vw;
+          color: transparent;
+          -webkit-text-stroke: 1px #000;
+}
+.homePage > .title > .one > .t {
+          margin-left: 1.5vw;
+          font-size: 5vw;
+}
+
+.homePage > .title > .one > .t:hover{
           color: #212125;
 }
+
+
+.homePage > .title > .one > .h{
+          font-size: 5vw;
+}
+
+.homePage > .title > .one > .h:hover{
+          color: #212125;
+}
+
+.homePage > .title > .two{
+          display: flex;
+          margin-top: 15vh;
+          margin-left: -55vw;
+}
+
+
+.homePage > .title > .two > h1{
+          gap: -1vh;
+          color: transparent;
+          -webkit-text-stroke: 1px #000;
+}
+
+.homePage > .title > .two > .i {
+        
+          font-size: 5vw;
+}
+
+.homePage > .title > .two > .i:hover{
+          color: #212125;
+}
+
+
+.homePage > .title > .two> .n{
+          font-size: 7vw;
+          margin-left: 1.5vw;
+          margin-top: -5vh;
+          /* font-family: "Ephesis", cursive; */
+}
+
+.homePage > .title > .two> .n::selection{
+          background-color: #D473D4;
+          color: #212125;
+}
+
+.homePage > .title > .two > .n:hover{
+          color: #212125;
+}
+
 
 .homePageFooter{
           margin: 2vw 4vw;
@@ -201,6 +265,13 @@ html,body{
           
 }
 
+.help > .btns > .btn1:hover{
+          background-color: #D473D4;
+}
+.help > .btns > .btn1 > .names > h3:hover{
+          color: #f8f8f8;
+}
+
 .help > .btns > .btn1 > .names{
           margin-left: 1vw;
 }
@@ -215,6 +286,12 @@ html,body{
           border: 1px solid #FFD700;
           background-color: #FFD700;
           border-radius: 50%;
+}
+.help > .btns > .btn2:hover{
+          background-color: #D473D4;
+}
+.help > .btns > .btn2 > .names > h3:hover {
+          color: #f8f8f8;
 }
 
 .help > .btns > .btn2{
@@ -238,9 +315,15 @@ html,body{
 .help > .btns > .btn3 > img{
           height: 5vh;
           width: fit-content;
-          border: 1px solid #D473D4;
-          background-color: #D473D4;
+          border: 1px solid greenyellow;
+          background-color: greenyellow;
           border-radius: 50%;
+}
+.help > .btns > .btn3:hover{
+          background-color: #D473D4;
+}
+.help > .btns > .btn3 > .names > h3:hover{
+          color: #f8f8f8;
 }
 
 .help > .btns > .btn3{
@@ -268,6 +351,13 @@ html,body{
           background-color: #85B09A;
           border-radius: 50%;
 }
+.help > .btns > .btn4:hover{
+          background-color: #D473D4;
+}
+.help > .btns > .btn4 > .names > h3:hover {
+          color: #f8f8f8;
+}
+
 
 .help > .btns > .btn4{
           margin: 2vw ;
@@ -355,6 +445,18 @@ html,body{
           margin: 2vw 2vw ;
 }
 
+.workExperience > .left > .one:hover{
+          background: hsla(277, 79%, 84%, 1);
+
+background: linear-gradient(90deg, hsla(277, 79%, 84%, 1) 0%, hsla(204, 95%, 77%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(277, 79%, 84%, 1) 0%, hsla(204, 95%, 77%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(277, 79%, 84%, 1) 0%, hsla(204, 95%, 77%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#DDB4F6", endColorstr="#8DD0FC", GradientType=1 );
+}
+
 .workExperience > .left > .one > h1{
           font-size: 1.7vw;
 }
@@ -371,6 +473,18 @@ html,body{
           margin: 4vw 2vw ;
 }
 
+.workExperience > .left > .two:hover{
+          background: hsla(311, 74%, 87%, 1);
+
+background: linear-gradient(90deg, hsla(311, 74%, 87%, 1) 0%, hsla(275, 19%, 88%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(311, 74%, 87%, 1) 0%, hsla(275, 19%, 88%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(311, 74%, 87%, 1) 0%, hsla(275, 19%, 88%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F6C4ED", endColorstr="#E1DAE6", GradientType=1 );
+}
+
 .workExperience > .left > .two > h1{
           font-size: 1.7vw;
 }
@@ -385,6 +499,18 @@ html,body{
           background-color: #fff;
           padding: 1vw 2vw;
           margin: 4vw 2vw ;
+}
+
+.workExperience > .left > .three:hover{
+          background: hsla(46, 73%, 75%, 1);
+
+background: linear-gradient(90deg, hsla(46, 73%, 75%, 1) 0%, hsla(176, 73%, 88%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(46, 73%, 75%, 1) 0%, hsla(176, 73%, 88%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(46, 73%, 75%, 1) 0%, hsla(176, 73%, 88%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#EED991", endColorstr="#CCF7F4", GradientType=1 );
 }
 
 .workExperience > .left > .three> h1{
@@ -409,6 +535,18 @@ html,body{
           margin: 1vw 2vw;
 }
 
+.workExperience > .right >.one:hover{
+          background: hsla(311, 74%, 87%, 1);
+
+background: linear-gradient(90deg, hsla(311, 74%, 87%, 1) 0%, hsla(275, 19%, 88%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(311, 74%, 87%, 1) 0%, hsla(275, 19%, 88%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, rgb(217, 171, 209) 0%, hsla(275, 19%, 88%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F6C4ED", endColorstr="#E1DAE6", GradientType=1 );
+}
+
 .workExperience > .right > .one > p{
           font-size: 1vw;
 }
@@ -419,6 +557,18 @@ html,body{
           background-color: #fff;
           padding: 1vw 2vw;
           margin: 3vw 2vw;
+}
+
+.workExperience > .right > .two:hover{
+          background: hsla(40, 94%, 74%, 1);
+
+background: linear-gradient(90deg, hsla(40, 94%, 74%, 1) 0%, hsla(60, 89%, 72%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(40, 94%, 74%, 1) 0%, hsla(60, 89%, 72%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(40, 94%, 74%, 1) 0%, hsla(60, 89%, 72%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FBD07C", endColorstr="#F7F779", GradientType=1 );
 }
 
 .workExperience > .right > .two > p{
@@ -433,6 +583,34 @@ html,body{
           margin: 3vw 2vw;
 }
 
+.workExperience > .right > .three:hover{
+          background: hsla(40, 63%, 85%, 1);
+
+background: linear-gradient(90deg, hsla(40, 63%, 85%, 1) 0%, hsla(22, 94%, 79%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(40, 63%, 85%, 1) 0%, hsla(22, 94%, 79%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(40, 63%, 85%, 1) 0%, hsla(22, 94%, 79%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F1E1C2", endColorstr="#FCBC98", GradientType=1 );
+}
+
 .workExperience > .right > .three > p{
           font-size: 1vw;
+}
+
+.explain{
+          margin-top: 2vh;
+          margin-bottom: 2vh;
+          margin-left: 20vw;
+         padding: 2vw;
+}
+.explain > .p1 > p{
+          font-size: 1.1vw;
+          font-weight: 500;
+}
+
+.explain > .p2 > p{
+          font-size: 1.1vw;
+          font-weight: 500;
 }
